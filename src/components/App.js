@@ -13,7 +13,7 @@ return(
     <input type='radio' name='gender'value='Female' checked={selected === 'Female'}  onChange={(e) => setSelected(e.target.value)}/>
     <label>Female</label>
   {selected === 'Male' && (<div>
-    <h2>Select your shirt size</h2>
+    <h2>Select your shirt size:</h2>
     <select>
     <option>Select size</option>
       <option>Small</option>
@@ -24,7 +24,7 @@ return(
 )}
 {selected === 'Female' && (
     <div>
-    <h2>Select your dress size</h2>
+    <h2>Select your dress size:</h2>
     <select>
       <option>Select size</option>
       <option>2</option>
